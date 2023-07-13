@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import ArrayMethodGame from '../ArrayMethodGame';
+import 'tailwindcss/tailwind.css';
+
 
 const Game = () => {
   const [questionCount, setQuestionCount] = useState(1);
